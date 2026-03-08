@@ -72,3 +72,14 @@ subjects = ["Maths", "Physics", "Chemistry", "Biology", "English"]
 classrooms_needed = len(subjects)
 print("Number of classrooms needed:", classrooms_needed)
 
+
+#Write a program to enter marks of 3 subjects from the user and store them in a dictionary.Start with an empty dicitonary & add the key-value pairs one by one. Finally, print the dictionary.
+marks = {}
+marks["Maths"] = int(input("Enter marks for Maths: "))
+marks["Physics"] = int(input("Enter marks for Physics: "))
+marks["Chemistry"] = int(input("Enter marks for Chemistry: "))
+print(marks)
+
+#Store 9 & 9.0 as a seprate values in the Set
+my_set = {9," 9.0"}
+print(my_set)
